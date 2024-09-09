@@ -43,7 +43,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [X] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -119,7 +119,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
+- [X] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -140,6 +140,13 @@ own implementation in Python to help you begin to create a mapping between the t
 - [ ] Make note of any specific Java syntax which stands out to you and compare what you
 come up with those around you. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
+
+**List of things I've noticed**
+* FOR LOOPS are the same. As well was similar structure for if elif else
+* elif (Python) becomes else if (Java)
+* and (Python) becomes && (Java)
+* There are no more : in Java, mainly {...;} for above statements
+* print(xyz) (Python) becomes System.out.println(xyz) (Java) which is mch longer ; (
 
 Tip: IntelliJ works just like PyCharm, so you can place breakpoints and step through the code using the debugger in the same way.
 You might find it informative to try stepping through the code to see what it is doing on a few iterations.
@@ -162,7 +169,7 @@ Later in this course, you'll learn what all that mess means, but for now it is e
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [x] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -181,7 +188,7 @@ line or the closing brace `}` of the loop.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify that it still works.
+- [x] Rerun the program to verify that it still works.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -258,18 +265,18 @@ It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [ ] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [X] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [ ] Hover over the error; IntelliJ will suggest some fixes.
+- [x] Hover over the error; IntelliJ will suggest some fixes.
 
-- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
+- [x] Click `More actions...` and you'll see a list of the various possible access modifiers.
 These will be explained in more detail in your readings, but for now we can just make the method public.
 
-- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+- [x] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
 what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
